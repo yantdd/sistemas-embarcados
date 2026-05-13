@@ -4,8 +4,8 @@
 #include <math.h>
 
 #define N 30
-#define NUM_THREADS 5
-#define STACK_SIZE 2048 // Aumentado um pouco para acomodar o Soft-Float
+#define NUM_THREADS 10
+#define STACK_SIZE 2048 // Aumentado para acomodar o Soft-Float
 
 // -----------------------------------------------------------------------------
 // MAPEAMENTO DIRETO DO ACELERADOR HARDWARE CFS (Substitui neorv32.h)
